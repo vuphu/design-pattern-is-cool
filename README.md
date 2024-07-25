@@ -18,6 +18,7 @@ root/
 - Kotlin
 - Python
 - Java
+- Typescript
 
 ## Contributing
 
