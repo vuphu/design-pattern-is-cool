@@ -19,6 +19,7 @@ root/
 - Python
 - Java
 - Typescript
+- Dart
 
 ## Contributing
 
