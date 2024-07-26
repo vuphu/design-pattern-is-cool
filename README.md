@@ -20,7 +20,6 @@ root/
 - Java
 - Typescript
 - Dart
-- C#
 
 ## Contributing
 
