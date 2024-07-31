@@ -32,7 +32,7 @@ elif [ $2 = 'dart' ]; then
     dart $SOURCE_FILE
 elif [ $2 = "cpp" ]; then
     EXECUTABLE="exec"
-    g++ -o $EXECUTABLE $SOURCE_FILE
+    g++ -std=c++20 -o $EXECUTABLE $SOURCE_FILE
     ./$EXECUTABLE
     rm $EXECUTABLE
 fi
