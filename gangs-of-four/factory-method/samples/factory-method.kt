@@ -1,5 +1,3 @@
-// kotlinc factory-method.kt -include-runtime -d factory-method.jar && java -jar factory-method.jar && rm factory-method.jar
-
 interface Notification {
     fun send(message: String): Unit
 }

@@ -1,5 +1,3 @@
-// dart prototype.dart
-
 class Button {
   final String title;
   final String color;

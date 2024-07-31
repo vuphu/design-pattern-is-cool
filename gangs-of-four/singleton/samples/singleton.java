@@ -1,5 +1,3 @@
-// javac singleton.java && java GameSetting && rm GameSetting.class
-
 class GameSetting {
     private static GameSetting instance;
     private int volume;

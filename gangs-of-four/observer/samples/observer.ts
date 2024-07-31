@@ -1,5 +1,3 @@
-// ts-node observer.ts
-
 interface StockObserver {
     onPriceUpdated(name: string, price: number): void;
 }

@@ -1,5 +1,3 @@
-// dart builder.dart
-
 class SqlQueryBuilder {
   String _table = '';
   List<String> _columns = [];
