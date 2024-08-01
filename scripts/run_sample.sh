@@ -35,4 +35,9 @@ elif [ $2 = "cpp" ]; then
     g++ -std=c++20 -o $EXECUTABLE $SOURCE_FILE
     ./$EXECUTABLE
     rm $EXECUTABLE
+elif [ $2 = "rs" ]; then
+    EXECUTABLE="exec"
+    rustc -o $EXECUTABLE $SOURCE_FILE
+    ./$EXECUTABLE
+    rm $EXECUTABLE
 fi

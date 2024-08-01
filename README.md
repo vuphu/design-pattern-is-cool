@@ -21,6 +21,7 @@ root/
 - Typescript
 - Dart
 - C++
+- Rust
 
 ## Contributing
 
