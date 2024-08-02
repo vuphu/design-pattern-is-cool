@@ -22,6 +22,7 @@ root/
 - Dart
 - C++
 - Rust
+- Swift
 
 ## Contributing
 

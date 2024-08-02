@@ -40,4 +40,6 @@ elif [ $2 = "rs" ]; then
     rustc -o $EXECUTABLE $SOURCE_FILE
     ./$EXECUTABLE
     rm $EXECUTABLE
+elif [ $2 = "swift" ]; then
+    swift $SOURCE_FILE
 fi
