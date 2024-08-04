@@ -23,6 +23,7 @@ root/
 - C++
 - Rust
 - Swift
+- Go
 
 ## Contributing
 

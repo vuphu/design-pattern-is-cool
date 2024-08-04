@@ -42,4 +42,6 @@ elif [ $2 = "rs" ]; then
     rm $EXECUTABLE
 elif [ $2 = "swift" ]; then
     swift $SOURCE_FILE
+elif [ $2 = "go" ]; then
+    go run $SOURCE_FILE
 fi
