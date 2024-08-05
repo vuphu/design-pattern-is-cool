@@ -1,13 +1,12 @@
-# factory-method
+# command
 
-## Example 01: Notification System
-Implemented in `samples/factory-method.kt`
+## Example 01: Music Player Controller
+Implemented in `samples/command_pattern.rb`
 
-This code implements a notification system with the following components:
+This code applies the Command design pattern to control a `MusicPlayer` using commands. It includes:
 
-- **Notification**: Defines a `send` method for sending a notification.
-- **EmailNotification**: Sends a notification via email.
-- **AppNotification**: Sends a notification through an app.
-- **SMSNotification**: Sends a SMS notification.
+- **Command**: An abstract base class with an `execute` method that must be implemented by subclasses.
+- **MusicPlayer**: A class with methods to `play`, `stop`, and `pause` music.
+- **RemoteControl**: A class that sets and executes commands via a `press_button` method.
 
-The `chooseNotification` function selects the appropriate notification type based on the input string (e.g., "email", "app", "sms").
+The example initializes a `MusicPlayer` and uses a `RemoteControl` to set and execute each command.

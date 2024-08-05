@@ -24,6 +24,7 @@ root/
 - Rust
 - Swift
 - Go
+- Ruby
 
 ## Contributing
 

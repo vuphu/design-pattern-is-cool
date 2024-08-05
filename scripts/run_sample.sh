@@ -44,4 +44,6 @@ elif [ $2 = "swift" ]; then
     swift $SOURCE_FILE
 elif [ $2 = "go" ]; then
     go run $SOURCE_FILE
+elif [ $2 = "rb" ]; then
+    ruby $SOURCE_FILE
 fi
