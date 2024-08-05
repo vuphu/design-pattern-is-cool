@@ -1,7 +1,7 @@
 # command
 
 ## Example 01: Music Player Controller
-Implemented in `samples/command_pattern.rb`
+Implemented in `samples/command.rb`
 
 This code applies the Command design pattern to control a `MusicPlayer` using commands. It includes:
 
