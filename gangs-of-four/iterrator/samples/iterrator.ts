@@ -16,7 +16,7 @@ function executeQuery(query: string): Row[] {
 }
 
 class SQLIterator {
-    private items: Row[];
+    private readonly items: Row[];
     private index: number;
 
     constructor(query: string) {
