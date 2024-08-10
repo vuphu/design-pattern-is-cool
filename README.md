@@ -26,6 +26,16 @@ root/
 - Go
 - Ruby
 
+## Running The Code
+Syntax
+```
+sh scripts/run_sample <folder_path> <file_extension>
+```
+Example
+```
+sh scripts/run_sample 'gangs-of-four/composite' 'py'
+```
+
 ## Contributing
 
 Contributions are welcome! If you have a design pattern example in a programming language not yet covered, or if you can improve an existing example, please feel free to open a pull request.
