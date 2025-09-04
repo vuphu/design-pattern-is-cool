@@ -27,7 +27,7 @@ elif [ $2 = 'java' ]; then
     java $(basename $JAVA_FILE .class)
     rm $JAVA_FILE
 elif [ $2 = 'ts' ]; then
-    ts-node $SOURCE_FILE
+    node $SOURCE_FILE
 elif [ $2 = 'dart' ]; then
     dart $SOURCE_FILE
 elif [ $2 = "cpp" ]; then

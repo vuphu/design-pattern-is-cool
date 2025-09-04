@@ -5,6 +5,12 @@ Welcome to **design-pattern-is-cool**! This repository showcases design pattern 
 
 ```bash
 root/
+├── advanced-patterns/
+│   └── <pattern-name>/
+│       ├── samples/
+│       │   ├── <pattern-name>.<language-extension>
+│       │   └── ...
+│       └──<pattern-name>.md
 ├── gangs-of-four/
 │   └── <pattern-name>/
 │       ├── samples/
